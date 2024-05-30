@@ -7,7 +7,7 @@ const adidasModelo = params.get('modelo');
 // Función para obtener los detalles de las zapatillas adidas por su modelo
 const obtenerDetallesAdidas = async (modelo) => {
   try {
-    const response = await fetch('https://run.mocky.io/v3/d414a5e0-78fc-4a16-9d70-5b82dc6bfbe6');
+    const response = await fetch('https://run.mocky.io/v3/48081c79-6544-498f-be63-b8c3bee232f1');
     if (!response.ok) {
       throw new Error('La solicitud falló');
     }

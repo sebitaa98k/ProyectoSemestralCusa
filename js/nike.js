@@ -2,7 +2,7 @@
 
 
 async function fetchZapatillasNike() {
-    const url = 'https://run.mocky.io/v3/1c559273-ac92-4707-9d9f-208440f7fbea';
+    const url = 'https://run.mocky.io/v3/c3b6035d-a8ad-4041-8c34-d322b58d1d8a';
     try {
         const response = await fetch(url);
         if (!response.ok) {
@@ -19,7 +19,7 @@ function createCard(zapatillaNike) {
     const cardContainer = document.getElementById('nikecard-container');
 
     const card = document.createElement('div');
-    card.className = 'card col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mb-5';
+    card.className = 'card col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-1 mb-5';
 
     card.innerHTML = `
         <img src="${zapatillaNike.img}" class="card-img-top" alt="${zapatillaNike.modelo}">

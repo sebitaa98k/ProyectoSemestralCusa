@@ -21,29 +21,34 @@
 
     <main>
 
-      <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 >
-
+      <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-1 mb-5">
         <div>
-            
             <a class="navbar-brand" href="#">Zapatillas</a>
-            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
         
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 div-nav-style">
             <li class="nav-item ">
-              <a class="nav-link active" aria-current="page" href="#">Adidas</a>
+              <a class="nav-link active" aria-current="page" href="./adidas.html">Adidas</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link active" aria-current="page" href="#">Nike</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link active" aria-current="page" href="#">Carrito</a>
+              <a class="nav-link active" aria-current="page" href="./nike.html">Nike</a>
             </li>
           </ul>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-carrito-sesion">
+              <li class="nav-item ">
+                 <a class="nav-link active" aria-current="page" href="#">Carrito</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="#">Sesion</a>
+             </li>
+            </ul>
+          </div>
         </div>
         
 
@@ -58,7 +63,9 @@
 
 
     <div class="container mt-4">
-      <div class="row" id="card-container"></div>
+      <div class="row" id="card-container">
+
+      </div>
     </div>
 
     <div class="container mt-4">

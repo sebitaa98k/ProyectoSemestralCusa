@@ -2,7 +2,7 @@
 
 
 async function fetchZapatillas() {
-    const url = 'https://run.mocky.io/v3/d414a5e0-78fc-4a16-9d70-5b82dc6bfbe6';
+    const url = 'https://run.mocky.io/v3/48081c79-6544-498f-be63-b8c3bee232f1';
     try {
         const response = await fetch(url);
         if (!response.ok) {
@@ -20,7 +20,7 @@ function createCard(data) {
     const cardContainer = document.getElementById('card-container');
     
     const card = document.createElement('div');
-    card.className = 'card col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mb-5';
+    card.className = 'card col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-1 mb-5';
 
     card.innerHTML = `
         

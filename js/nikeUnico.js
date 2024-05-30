@@ -7,7 +7,7 @@ const nikeModelo = params.get('modelo');
 // Función para obtener los detalles de las zapatillas Nike por su modelo
 const obtenerDetallesNike = async (modelo) => {
   try {
-    const response = await fetch('https://run.mocky.io/v3/1c559273-ac92-4707-9d9f-208440f7fbea');
+    const response = await fetch('https://run.mocky.io/v3/c3b6035d-a8ad-4041-8c34-d322b58d1d8a');
     if (!response.ok) {
       throw new Error('La solicitud falló');
     }
