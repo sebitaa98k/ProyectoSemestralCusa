@@ -12,8 +12,45 @@ body{
 
 
 /* botones */
+.btn-ver-style{
+    width: 7.5em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ffffff;
+    
+}
+.btn-ver-style::before{
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to
+        right, #1a0d8b 0%, #0d335c 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+
+}
+
+.btn-ver-style:hover::before{
+
+    width: 9em;
+}
+
 
 .btn-style{
+    margin-left: 20px;
     width: 9em;
     height: 3em;
     border-radius: 30em;
@@ -37,7 +74,7 @@ body{
     top: 0;
     left: 0;
     background-image: linear-gradient(to
-        right, #0fd850 0%, #f9f047 100%);
+        right, #ffdd00 0%, #0fd850 200%);
     transition: .5s ease;
     display: block;
     z-index: -1;
@@ -47,6 +84,7 @@ body{
     width: 9em;
 }
 
+/* card */
 
 
 
@@ -66,8 +104,9 @@ nav {
 
 .search-style{
     position: relative;
-    margin: 10px 20px;
-    width: 100%;
+    margin-top: 25px;
+    margin-left: 190px;
+    width: 75%;
     padding: 10px 10px 10px 20px;
     border-radius: 40px;
     border: none;
