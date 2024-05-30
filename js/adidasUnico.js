@@ -38,6 +38,7 @@ const renderizarDetalleAdidas = (adida) => {
             <p class="card-text">Numero: ${adida.numero}</p> 
             <p class="card-text">Stock: ${adida.stock}</p>
             <a href="javascript:history.back()" class="btn btn-primary">Volver</a>
+            <button class="btn btn-warning">Comprar</button>
         </div>
     </div>
   `;
