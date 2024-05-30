@@ -2,14 +2,16 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    background-color:#e5e0e0;
 }
 
-/* div:hover a:not(:hover){
-    opacity: .7;
-    transform: scale(.85);
-} */
+
+
+
+/* botones */
 
 .btn-style{
     width: 9em;
@@ -44,3 +46,54 @@ font-family: 'Times New Roman', Times, serif;
 .btn-style:hover::before{
     width: 9em;
 }
+
+
+
+
+/* navbar */
+
+nav {
+    gap: 50px;
+    position: relative;
+    width: 400px;
+    height: 60px;
+    background: #222;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-style{
+    position: relative;
+    margin: 10px 20px;
+    width: 100%;
+    padding: 10px 10px 10px 20px;
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    transition: 0.6s all ease-in-out;
+}
+
+.div-nav-style{
+    gap: 15px;
+}
+
+.search-style:focus-visible{
+    outline: none;
+    box-shadow: 0px 0px 6px 6px #294488;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
