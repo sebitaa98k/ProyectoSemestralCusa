@@ -29,7 +29,7 @@ function createCard(data) {
             <h5 class="card-title">${data.precio}</h5>
             <h5 class="card-title">Stock: ${data.stock}</h5>
             <button class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Ver zapatilla</button>
-            <button class="btn btn-warning">Comprar</button>
+            <button class="btn btn-warning btn-style">Comprar</button>
         </div>
     `;
 

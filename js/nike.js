@@ -28,6 +28,7 @@ function createCard(zapatillaNike) {
             <h5 class="card-title">${zapatillaNike.precio}</h5>
             <h5 class="card-title">Stock: ${zapatillaNike.stock}</h5>
             <button class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Comprar</button>
+            <button class="btn btn-warning btn-style">Comprar</button>
         </div>
     `;
 
