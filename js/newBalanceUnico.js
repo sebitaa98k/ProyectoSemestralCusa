@@ -34,7 +34,8 @@ function renderizarDetalleNewBalance(zapatilla) {
             <p class="card-text">Marca: ${zapatilla.marca}</p>
             <p class="card-text">Numero: ${zapatilla.numero}</p>
             <p class="card-text">Stock: ${zapatilla.stock}</p>
-            <a href="javascript:history.back()" class="btn btn-primary">Volver</a>
+            <a href="javascript:history.back()" class="btn btn-primary btn-ver-style">Volver</a>
+            <button class="btn btn-dark btn-style">Comprar</button>
         </div>
     </div>
   `;

@@ -4,7 +4,7 @@
 const params = new URLSearchParams(window.location.search);
 const adidasModelo = params.get('modelo');
 
-// Función para obtener los detalles de las zapatillas adidas por su modelo
+
 const obtenerDetallesAdidas = async (modelo) => {
   try {
     const response = await fetch('https://run.mocky.io/v3/48081c79-6544-498f-be63-b8c3bee232f1');
@@ -16,17 +16,17 @@ const obtenerDetallesAdidas = async (modelo) => {
     if (!adida) {
       throw new Error('Zapatillas adidas no encontradas');
     }
-    console.log('Detalles de zapatillas adidas:', adida); // Verificar los detalles de las zapatillas
+    console.log('Detalles de zapatillas adidas:', adida); 
     renderizarDetalleAdidas(adida);
   } catch (error) {
     console.error('Error:', error);
   }
 };
 
-// Función para renderizar los detalles de las zapatillas adidas
+
 const renderizarDetalleAdidas = (adida) => {
   const adidasDetailContainer = document.getElementById("adidasUnico");
-  adidasDetailContainer.innerHTML = ""; // Limpiar el contenedor
+  adidasDetailContainer.innerHTML = ""; 
 
   const adidasHTML = `
     <div class="card">
@@ -37,8 +37,8 @@ const renderizarDetalleAdidas = (adida) => {
             <p class="card-text">Marca: ${adida.marca}</p>
             <p class="card-text">Numero: ${adida.numero}</p> 
             <p class="card-text">Stock: ${adida.stock}</p>
-            <a href="javascript:history.back()" class="btn btn-primary">Volver</a>
-            <button class="btn btn-warning">Comprar</button>
+            <a href="javascript:history.back()" class="btn btn-primary btn-ver-style">Volver</a>
+            <button class="btn btn-dark btn-style">Comprar</button>
         </div>
     </div>
   `;

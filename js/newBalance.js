@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h5 class="card-title">${zapatilla.precio}</h5>
                 <h5 class="card-title">Stock: ${zapatilla.stock}</h5>
                 <button class="btn btn-primary btn-ver-style"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Ver zapatilla</button>
-                <button class="btn btn-warning btn-style">Comprar</button>
+                <button class="btn btn-dark btn-style">Comprar</button>
             </div>
         `;
 

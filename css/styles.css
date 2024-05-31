@@ -36,7 +36,7 @@ body{
     top: 0;
     left: 0;
     background-image: linear-gradient(to
-        right, #1a0d8b 0%, #0d335c 100%);
+        right, #8c8c8c 0%, #515151 100%);
     transition: .5s ease;
     display: block;
     z-index: -1;
@@ -74,15 +74,18 @@ body{
     top: 0;
     left: 0;
     background-image: linear-gradient(to
-        right, #ffdd00 0%, #0fd850 200%);
+        right, #84b6f4 0%, #005187 200%);
     transition: .5s ease;
     display: block;
     z-index: -1;
 }
 
+
 .btn-style:hover::before{
     width: 9em;
 }
+
+
 
 /* card */
 
@@ -241,6 +244,7 @@ nav {
     font-size: 20px;
     font-weight: 900;
 }
+
 
 
 
