@@ -37,7 +37,8 @@ const renderizarDetalleNike = (nike) => {
             <p class="card-text">Marca: ${nike.marca}</p>
             <p class="card-text">Número: ${nike.numero}</p>
             <p class="card-text">Stock: ${nike.stock}</p>
-            <a href="javascript:history.back()" class="btn btn-primary">Volver</a>
+            <a href="javascript:history.back()" class="btn btn-primary btn-ver-style">Volver</a>
+            <button class="btn btn-dark btn-style">Comprar</button>
         </div>
     </div>
   `;

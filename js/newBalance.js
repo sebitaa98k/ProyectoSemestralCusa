@@ -26,11 +26,11 @@ document.addEventListener('DOMContentLoaded', () => {
         card.innerHTML = `
             <img src="${zapatilla.img}" class="card-img-top" alt="${zapatilla.modelo}">
             <div class="card-body">
-                <h5 class="card-title">${zapatilla.modelo}</h5>
-                <h5 class="card-title">${zapatilla.precio}</h5>
-                <h5 class="card-title">Stock: ${zapatilla.stock}</h5>
-                <button class="btn btn-primary btn-ver-style"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Ver zapatilla</button>
-                <button class="btn btn-warning btn-style">Comprar</button>
+                <h5 class="card-title title">${zapatilla.modelo}</h5>
+                <h5 class="card-title price">${zapatilla.precio}</h5>
+                <h5 class="card-title stock">Stock: ${zapatilla.stock}</h5>
+                <button class="btn btn-primary btn-ver-style"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Ver </button>
+                <button class="btn btn-dark btn-style btn-add-function">Comprar</button>
             </div>
         `;
 

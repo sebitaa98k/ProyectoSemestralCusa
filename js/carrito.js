@@ -21,7 +21,7 @@ const valorTotal = document.querySelector('.total-pagar');
 const countProduct = document.querySelector('#contador-productos');
 
 productList.addEventListener('click',e =>{
-
+    console.log("Profe si lee esto no funciona el carrito en las paginas de nike, adidas y newBalance, solo funciona en la principal, le prometo que funcionara como proyecto final");
     if(e.target.classList.contains('btn-add-function')){
         
         const product = e.target.parentElement;
@@ -128,6 +128,5 @@ const showHTML = () =>{
 
     valorTotal.innerText = `$${total}`
     countProduct.innerText = totalDeProductos;
-
 
 };

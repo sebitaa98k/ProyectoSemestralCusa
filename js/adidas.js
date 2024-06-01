@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h5 class="card-title title">${data.modelo}</h5>
                 <h5 class="card-title price">${data.precio}</h5>
                 <h5 class="card-title stock">Stock: ${data.stock}</h5>
-                <button class="btn btn-primary btn-ver-style"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Ver zapatilla</button>
-                <button class="btn btn-warning btn-style btn-add-function">Comprar</button>
+                <button class="btn btn-primary btn-ver-style"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Ver</button>
+                <button class="btn btn-dark btn-style btn-add-function">Comprar</button>
             </div>
         `;
 

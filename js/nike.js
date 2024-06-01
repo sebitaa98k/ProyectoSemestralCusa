@@ -25,13 +25,11 @@ document.addEventListener('DOMContentLoaded', () => {
         card.innerHTML = `
             <img src="${zapatillaNike.img}" class="card-img-top" alt="${zapatillaNike.modelo}">
             <div class="card-body">
-                <h5 class="card-title">${zapatillaNike.modelo}</h5>
-                <h5 class="card-title">${zapatillaNike.precio}</h5>
-                <h5 class="card-title">Stock: ${zapatillaNike.stock}</h5>
-                <div>
-                    <button class="btn btn-primary btn-ver-style"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Comprar</button>
-                    <button class="btn btn-warning btn-style">Comprar</button>
-                </div>
+                <h5 class="card-title title">${zapatillaNike.modelo}</h5>
+                <h5 class="card-title price">${zapatillaNike.precio}</h5>
+                <h5 class="card-title stock">Stock: ${zapatillaNike.stock}</h5>
+                <button class="btn btn-primary btn-ver-style"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Ver zapatilla</button>
+                <button class="btn btn-dark btn-style btn-add-function">Comprar</button>
             </div>
         `;
 

@@ -37,8 +37,8 @@ const renderizarDetalleAdidas = (adida) => {
             <p class="card-text">Marca: ${adida.marca}</p>
             <p class="card-text">Numero: ${adida.numero}</p> 
             <p class="card-text">Stock: ${adida.stock}</p>
-            <a href="javascript:history.back()" class="btn btn-primary">Volver</a>
-            <button class="btn btn-warning">Comprar</button>
+            <a href="javascript:history.back()" class="btn btn-primary btn-ver-style">Volver</a>
+            <button class="btn btn-dark btn-style">Comprar</button>
         </div>
     </div>
   `;

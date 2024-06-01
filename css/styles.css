@@ -36,7 +36,7 @@ body{
     top: 0;
     left: 0;
     background-image: linear-gradient(to
-        right, #1a0d8b 0%, #0d335c 100%);
+    right, #8c8c8c 0%, #515151 100%);
     transition: .5s ease;
     display: block;
     z-index: -1;
@@ -74,7 +74,7 @@ body{
     top: 0;
     left: 0;
     background-image: linear-gradient(to
-        right, #ffdd00 0%, #0fd850 200%);
+    right, #84b6f4 0%, #005187 200%);
     transition: .5s ease;
     display: block;
     z-index: -1;
@@ -243,15 +243,97 @@ nav {
 }
 
 
+:root{
+    --font-mono: ul-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe IU Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+    --trasition: all 0.1s cubic-bezier(0.645, 0.045, 0.355, 1)
+}
+
+.cart-position{
+    margin-left: -170px;
+}
 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    font-family: var(--font-mono);
+}
 
+section{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+}
 
+section h1{
+    font-size: 3em;
+}
 
+section h2{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 2.5em;
+}
 
+section form{
+    padding: 1.5em;
+    display: flex;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 2px solid rgba(0,0,0,.1);
+}
 
+section form label{
+    width: 100%;
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+}
 
+section form input{
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.8em;
+    border-radius: 9px;
+    outline-color: #003DFF;
+    background-color: #eee;
+}
 
+section form input[type='submit']{
+    transform: scale(0.97);
+}
+
+section p{
+    margin-top: 1.5em;
+}
+
+section p a{
+    text-decoration: none;
+    color: #003DFF;
+}
+
+/* Home */
+
+section button{
+    background-color: #003DFF;
+    color: #fff;
+    font-family: var(--font-mono);
+    transition: var(--trasition);
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 9px;
+    margin-top: 1.5em;
+    font-size: 1em;
+}
 
 
